@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    height: 20vh;
+   
+}
+.head .element{
+    background-color: rgb(31, 29, 29);
+    height: 40px;
+    text-align: center;
+}
+.head .element h4{
+    color: #fff;
+    padding: 8px;
+}
+
+/* navigation */
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    margin: 0 30px;
+    list-style: none;
+}
+.navigation ul li{
+    padding: 10px;
+    margin: 0 10px;
+    
+}
+.info .reg a{
+    text-decoration: none;
+    color: #000;
+}
+.info .reg{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+#sign{
+    background-color: #ffff00;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70vh;
+}
+.left button{
+    background-color: #ffff00;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 20px 0px;
+
+}
+.left p{
+    font-size: 20px;
+}
+.right img{
+    height: 500px;
+    width: 500px;
+    
+}
+
+/* footer */
+footer{
+    background-color:rgb(31, 29, 29);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+
+}
+footer #div{
+    display: flex;
+
+    
+
+
+}
+#div .allow{
+    border: 1px solid white;
+    padding: 5px 30px ;
+    margin-right: 20px;
+}
+
